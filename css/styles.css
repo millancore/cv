@@ -4,6 +4,7 @@ body {
     line-height: 1.5;
     margin: 0 auto;
     max-width: 920px;
+    padding: 0 16px;
 }
 header {
     text-align: center;
@@ -13,7 +14,6 @@ h1 {
     font-size: 2.5em;
     margin-bottom: 0;
 }
-
 
 button {
     background-color: #fff;
@@ -28,7 +28,8 @@ button {
     white-space: nowrap;
 
     &.active {
-        background-color: #e0e7ff;
+        background-color: #1d293d;
+        color: #fff;
     }
 }
 
@@ -98,4 +99,49 @@ section h3 {
     text-align: right;
 }
 
+@media (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+        gap: 0;
+
+
+    }
+
+    .contact-info .separator {
+        display: none;
+    }
+
+    .contact-info li {
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .job-header {
+        flex-wrap: wrap;
+    }
+
+    .job:nth-child(even) {
+        background-color: #fff;
+    }
+
+
+    .job {
+
+
+        li {
+            padding: 0 4px;
+            margin-bottom: 4px
+        }
+
+        li:nth-child(even) {
+            border-radius: 5px;
+            background-color: #f4f4f5;
+        }
+
+    }
+
+}
 
