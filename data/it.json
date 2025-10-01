@@ -1,0 +1,64 @@
+{
+  "title": "Juan Curriculum Vitae",
+  "name": "Juan Esteban Millan",
+  "location": "Genova, Italia",
+  "linkedin": "linkedin.com/in/millancore",
+  "phone": "+39 3455018293",
+  "email": "juanes14569@gmail.com",
+  "summary": "Oltre 15 anni di esperienza nello sviluppo di software, con una formazione in Contabilità. Questa combinazione mi ha permesso di comprendere a fondo sia i processi tecnici che quelli finanziari. Ho guidato progetti di automazione contabile e mi distinguo per le mie capacità di comunicazione e leadership.",
+  "professionalExperience": "ESPERIENZA PROFESSIONALE",
+  "jobs": [
+    {
+      "company": "Square1",
+      "location": "Dublino, Irlanda (remoto)",
+      "period": "Luglio 2020 – attuale",
+      "title": "Senior Full Stack Developer",
+      "tasks": [
+        "Creazione di E-commerce multi-tenant",
+        "Integrazione di pagamenti con Stripe, Paypal (Sviluppatore certificato Stripe)",
+        "Supporto clienti, gestione ticket, monitoraggio incidenti and richieste",
+        "Aggiornamento di progetti da Laravel 5 a 11, Dockerizzazione di progetti.",
+        "Creazione di librerie interne, uso di componenti Illuminate (Laravel) e Laminas (Zend).",
+        "Mentoring di team e professore presso la Square1 Academy per l'Università di Antioquia"
+      ]
+    },
+    {
+      "company": "Evertec - Placetopay",
+      "location": "Medellin, Colombia",
+      "period": "Febbraio 2019 – Ottobre 2019",
+      "title": "Ingegnere di Sviluppo",
+      "tasks": [
+        "Ottimizzazione e profilazione del software che elabora transazioni con Tideways e XHProf",
+        "Aggiornamenti di progetto, correzioni di bug e miglioramenti."
+      ]
+    },
+    {
+      "company": "Inscra SA - Cooburquin (Armenia)",
+      "location": "Medellin, Colombia",
+      "period": "Aprile 2009 – Maggio 2012",
+      "title": "Sviluppatore Supporto Contabilità - Assistente Contabile",
+      "tasks": [
+        "Ho lavorato fornendo supporto al team contabile dall'area sistemi,",
+        "Creazione di report contabili, sistemi per chiusure e riconciliazioni bancarie.",
+        "Generazione di report XML per la DIAN"
+      ]
+    }
+  ],
+  "education": "ISTRUZIONE",
+  "schools": [
+    {
+      "institution": "Istituto di Studi Finanziari di Barcellona",
+      "location": "Barcellona, Spagna",
+      "period": "2013 - 2014",
+      "degree": "Corso Superiore sulle Norme Internazionali di Contabilità, Contabilità e Finanza"
+    },
+    {
+      "institution": "Università di Antioquia",
+      "degree": "Ingegneria dei Sistemi, Ingegneria del Software"
+    },
+    {
+      "institution": "Servizio Nazionale di Apprendimento SENA",
+      "degree": "Tecnico Professionale in Gestione Contabile e Finanziaria, Contabilità"
+    }
+  ]
+}

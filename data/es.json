@@ -1,0 +1,64 @@
+{
+  "title": "Juan Curriculum Vitae",
+  "name": "Juan Esteban Millan",
+  "location": "Genova, Italia",
+  "linkedin": "linkedin.com/in/millancore",
+  "phone": "+39 3455018293",
+  "email": "juanes14569@gmail.com",
+  "summary": "Más de 15 años de experiencia en desarrollo de software, con formación en Contabilidad, esta combinación me ha permitido comprender a fondo tanto los procesos técnicos como los financieros. He liderado proyectos de automatización contable, Destaco por mis habilidades de comunicación y liderazgo.",
+  "professionalExperience": "EXPERIENCIA PROFESIONAL",
+  "jobs": [
+    {
+      "company": "Square1",
+      "location": "Dublin, Ireland (remoto)",
+      "period": "Julio 2020 – actual",
+      "title": "Senior Full Stack Developer",
+      "tasks": [
+        "Creación de Ecommerces multitenant",
+        "Integración de Pagos con Stripe, Paypal (Stripe Certified Developer)",
+        "Soporte al cliente, gestión de tickets, seguimiento de incidencias y requerimientos",
+        "Actualización de proyectos de Laravel 5 a 11, Dockerizacion de proyectos.",
+        "Creación de librerías internas, uso de componentes Illuminate (laravel) y Láminas (Zend).",
+        "Mentoring de equipos y profesor de Square1 Academy para la universidad de Antioquia"
+      ]
+    },
+    {
+      "company": "Evertec - Placetopay",
+      "location": "Medellin, Colombia",
+      "period": "Febrero 2019 – Octubre 2019",
+      "title": "Ingeniero de Desarrollo",
+      "tasks": [
+        "Optimización y profiling del software que procesa transacciones con Tideways y XHProf",
+        "Actualización de proyectos, corrección de errores y mejoras."
+      ]
+    },
+    {
+      "company": "Inscra SA - Cooburquin (Armenia)",
+      "location": "Medellin, Colombia",
+      "period": "Abril 2009 – Mayo 2012",
+      "title": "Desarrollador soporte Contabilidad - Auxiliar Contable",
+      "tasks": [
+        "Trabaje dando soporte a el equipo contable desde sistemas,",
+        "Creación de reportes contables, sistemas para cierres y conciliación bancaria.",
+        "Generación de reportes XML para la DIAN"
+      ]
+    }
+  ],
+  "education": "EDUCACIÓN",
+  "schools": [
+    {
+      "institution": "Instituto Barcelona de Estudios Financieros",
+      "location": "Barcelona, España",
+      "period": "2013 - 2014",
+      "degree": "Curso Superior de Normas Internacionales de Contabilidad, Contabilidad y finanzas"
+    },
+    {
+      "institution": "Universidad de Antioquia",
+      "degree": "Ingeniería de Sistemas, Ingeniería de Software"
+    },
+    {
+      "institution": "Servicio Nacional de Aprendizaje SENA",
+      "degree": "Técnico Profesional en Gestión Contable y Financiera, Contabilidad"
+    }
+  ]
+}

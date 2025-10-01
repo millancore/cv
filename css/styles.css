@@ -1,0 +1,84 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 920px;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+
+button {
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    border-radius: 3px;
+    color: #18181b;
+    cursor: pointer;
+    justify-content: center;
+    padding: calc(.5em - 1px) 1em;
+    text-align: center;
+    white-space: nowrap;
+
+    &.active {
+        background-color: #e0e7ff;
+    }
+}
+
+.language-selector {
+    display: flex;
+    gap: 4px;
+}
+
+.contact-info {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.separator {
+    margin: 0 5px;
+    font-size: 10pt;
+    color: #1d293d;
+}
+
+
+section h3 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+
+.job, .school {
+    margin-bottom: 20px;
+}
+
+
+.school {
+    p {
+        margin: 0;
+    }
+}
+
+.job-title {
+    font-weight: bold;
+
+}
+
+
+.date {
+    float: right;
+}
+
+
