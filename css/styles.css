@@ -48,7 +48,7 @@ button {
 
 .separator {
     margin: 0 5px;
-    font-size: 10pt;
+    font-size: 10px;
     color: #1d293d;
 }
 
@@ -60,8 +60,26 @@ section h3 {
 }
 
 
+.job-header {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        margin: 0;
+    }
+}
+
 .job, .school {
     margin-bottom: 20px;
+}
+
+.job {
+    padding: 10px;
+}
+
+.job:nth-child(even) {
+    background-color: #f5f5f5;
+    border-radius: 3px;
 }
 
 
@@ -76,9 +94,8 @@ section h3 {
 
 }
 
-
 .date {
-    float: right;
+    text-align: right;
 }
 
 

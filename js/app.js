@@ -19,9 +19,13 @@ async function loadLanguage(lang) {
         const jobElement = document.createElement('div');
         jobElement.classList.add('job');
         jobElement.innerHTML = `
-            <span class="job-title">${job.company}</span>
-            <span class="date">${job.location}<br>${job.period}</span>
-            <p>${job.title}</p>
+            <div class="job-header">
+                <div>
+                  <span class="job-title">${job.company}</span>
+                  <p>${job.title}</p>
+                </div>
+                <span class="date">${job.location}<br>${job.period}</span>
+            </div>
             <ul>
                 ${job.tasks.map(task => `<li>${task}</li>`).join('')}
             </ul>

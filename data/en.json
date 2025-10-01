@@ -17,7 +17,7 @@
         "Creation of multi-tenant E-commerces",
         "Payment integration with Stripe, Paypal (Stripe Certified Developer)",
         "Customer support, ticket management, incident and requirement tracking",
-        "Updating projects from Laravel 5 to 11, Dockerization of projects.",
+        "Updating projects from Laravel 5 to 12, Dockerization of projects.",
         "Creation of internal libraries, use of Illuminate (Laravel) and Laminas (Zend) components.",
         "Team mentoring and professor at Square1 Academy for the University of Antioquia"
       ]
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "company": "Inscra SA - Cooburquin (Armenia)",
+      "company": "Inscra SA - Cooburquin",
       "location": "Medellin, Colombia",
       "period": "April 2009 – May 2012",
       "title": "Developer Support Accounting - Accounting Assistant",
@@ -48,8 +48,6 @@
   "schools": [
     {
       "institution": "Barcelona Institute of Financial Studies",
-      "location": "Barcelona, Spain",
-      "period": "2013 - 2014",
       "degree": "Advanced Course on International Accounting Standards, Accounting and Finance"
     },
     {
