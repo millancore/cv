@@ -19,7 +19,6 @@ button {
     background-color: #fff;
     border-color: #dbdbdb;
     border-width: 1px;
-    border-radius: 3px;
     color: #18181b;
     cursor: pointer;
     justify-content: center;
@@ -33,9 +32,13 @@ button {
     }
 }
 
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
 .language-selector {
     display: flex;
-    gap: 4px;
 }
 
 .contact-info {
@@ -82,7 +85,6 @@ section h3 {
     background-color: #f5f5f5;
     border-radius: 3px;
 }
-
 
 .school {
     p {
@@ -145,3 +147,45 @@ section h3 {
 
 }
 
+@media print {
+    body {
+        font-size: 12pt;
+        color: #000;
+        max-width: 100%;
+    }
+
+    header, section h3 {
+        page-break-after: avoid;
+    }
+
+    .no-print {
+        display: none !important;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .job, .school {
+        page-break-inside: avoid;
+    }
+
+    .job:nth-child(even) {
+        background-color: #fff;
+    }
+
+    .job li:nth-child(even) {
+        background-color: #fff;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    section h3 {
+        border-bottom: 2px solid #333;
+    }
+}
