@@ -5,58 +5,105 @@
   "linkedin": "linkedin.com/in/millancore",
   "phone": "+39 3455018293",
   "email": "millancore@gmail.com",
-  "summary": "Software developer with 15+ years working across the entire process from clients request, planning  to designing systems building them. I get both sides: ability to understand a business and contribute in a technical manner. My accounting background helps me really understand business processes, which has been super useful leading automation projects, manage large volumes of data and update complex systems.",
+  "summary": "Full Stack Engineer who actually likes improving legacy projects. For over a decade, I've been digging under the hood of complex systems—payment platforms handling millions in transactions, digital twin infrastructure, and enterprise accounting tools. I've learned that code is just a tool; my real job is making sure the underlying system is reliable enough that the technology becomes invisible to the people using it. I enjoy tracking down bottlenecks, untangling legacy code, and rethinking architecture so it's not just faster—but easier for the next developer. I've worked with distributed teams across different continents, cultures, and time zones.",
   "professionalExperience": "PROFESSIONAL EXPERIENCE",
   "jobs": [
     {
       "company": "Square1",
-      "location": "Dublin, Ireland (remote)",
+      "location": "Ireland",
+      "mode": "Remote",
       "period": "July 2020 – present",
       "title": "Senior Full Stack Developer",
+      "description": "Senior Full-Stack Engineer with extensive experience at Square1, Europe's leading digital transformation agency and world's first Stripe-Certified Agency Partner. Specialized in architecting scalable multi-tenant e-commerce platforms and complex payment systems for enterprise clients. Proven technical leader in payment processing, framework modernization, and team mentorship across international teams.",
       "tasks": [
-        "Creation of multi-tenant E-commerces",
-        "Payment integration with Stripe, Paypal (Stripe Certified Developer)",
-        "Customer support, ticket management, incident and requirement tracking",
-        "Updating projects from Laravel 5 to 12, Dockerization of projects.",
-        "Creation of internal libraries, use of Illuminate (Laravel) and Laminas (Zend) components.",
-        "Team mentoring and professor at Square1 Academy for the University of Antioquia"
+        "Stripe and PayPal integration specialist with hands-on experience on enterprise payment platforms serving millions in annual transactions.",
+        "Led Laravel framework upgrades (5→12), Docker containerization projects, and infrastructure improvements reducing deployment time by 60%.",
+        "Built reusable Laravel/Illuminate components and Laminas-based enterprise libraries supporting multi-tenancy, payment processing, and content distribution across projects.",
+        "Designed and delivered practical curriculum at University of Antioquia through Square1 Academy, bridging theoretical knowledge with industry-ready technical skills while mentoring student developers."
       ]
     },
     {
-      "company": "Evertec - Placetopay",
-      "location": "Medellin, Colombia",
-      "period": "February 2019 – October 2019",
+      "company": "Evertec",
+      "location": "Colombia",
+      "mode": "Hybrid",
+      "period": "January 2019 – December 2019",
       "title": "Development Engineer",
+      "description": "Improved the performance and reliability of high-volume payment processing systems through systematic profiling, bottleneck analysis, and strategic code optimization.",
       "tasks": [
-        "Optimization and profiling of the software that processes transactions with Tideways and XHProf",
-        "Project updates, bug fixes, and improvements."
+        "Leveraged Tideways and XHProf to identify bottlenecks in payment processing pipelines, then implemented targeted optimizations that measurably reduced processing latency and increased transaction throughput across high-volume payment flows."
       ]
     },
     {
-      "company": "Inscra SA - Cooburquin",
-      "location": "Medellin, Colombia",
-      "period": "April 2009 – May 2012",
-      "title": "Developer Support Accounting - Accounting Assistant",
+      "company": "ENGworks",
+      "location": "Argentina",
+      "mode": "Hybrid",
+      "period": "February 2016 – January 2019",
+      "title": "Backend Developer",
+      "description": "Contributed to YouBIM's Digital Twin platform, a comprehensive facility management and BIM (Building Information Modeling) solution designed to modernize maintenance operations and streamline facility data integration. Worked on core backend systems that power YouBIM's integrated suite of products.",
       "tasks": [
-        "I worked providing support to the accounting team from the systems area,",
-        "Creation of accounting reports, systems for closings and bank reconciliation.",
-        "Generation of XML reports for the DIAN"
+        "Developed and maintained API endpoints and backend services supporting real-time facility data management, maintenance workflow automation, and 3D model integration.",
+        "Built database solutions enabling seamless integration of BIM models, equipment history, maintenance records, and compliance tracking across enterprise facility management platforms.",
+        "Collaborated with full-stack teams to deliver user-friendly digital twin infrastructure that simplifies complex facility operations for maintenance managers, operations directors, and BIM consultants.",
+        "Contributed to backend architecture for automated maintenance alerts, work order management systems, and compliance reporting features."
+      ]
+    },
+    {
+      "company": "TOKEN Software Components",
+      "location": "Colombia",
+      "mode": "Freelance",
+      "period": "April 2014 – February 2016",
+      "title": "Full Stack Engineer",
+      "description": "Freelance full stack engineer building custom web solutions during the early days of remote work. Created static sites, WordPress platforms, and provided technical consulting.",
+      "tasks": [
+        "Built custom WordPress themes and plugins for small business clients, delivering tailored CMS solutions with intuitive admin interfaces.",
+        "Developed static websites and landing pages optimized for performance and SEO.",
+        "Provided technical consulting and maintenance services for existing web applications."
+      ]
+    },
+    {
+      "company": "INSCRA S.A.S",
+      "location": "Colombia",
+      "mode": "On-site",
+      "period": "May 2012 – April 2014",
+      "title": "Software Developer",
+      "description": "Engineered and maintained enterprise-grade accounting software solutions with emphasis on regulatory compliance, system optimization, and legacy system modernization to enhance operational efficiency and ensure adherence to international financial reporting standards.",
+      "tasks": [
+        "Provided comprehensive technical support and conducted systematic analysis of accounting systems, implementing strategic enhancements to optimize system performance and improve end-user experience.",
+        "Designed and implemented system integrations in accordance with International Financial Reporting Standards (IFRS), ensuring full regulatory compliance and standardized financial reporting practices.",
+        "Directed modernization initiatives for legacy applications, enhancing code quality, refining system architecture, and improving long-term maintainability while systematically reducing technical debt."
       ]
     }
   ],
+  "skillsTitle": "SKILLS",
+  "skills": {
+    "Backend": ["PHP", "Laravel", "Symfony", "Laminas", "Golang", "APIs"],
+    "Frontend": ["JavaScript", "HTML", "CSS", "Tailwind", "Vue"],
+    "Database": ["MySQL", "PostgreSQL", "Database Design"],
+    "DevOps": ["Docker", "Git", "Bash", "Linux", "CI/CD"],
+    "Payments": ["Stripe", "PayPal", "Payment Processing"],
+    "Tools": ["Tideways", "XHProf", "Performance Profiling"]
+  },
   "education": "EDUCATION",
   "schools": [
     {
-      "institution": "Barcelona Institute of Financial Studies",
-      "degree": "Advanced Course on International Accounting Standards, Accounting and Finance"
+      "institution": "University of Antioquia",
+      "degree": "Systems Engineering, Software Engineering",
+      "period": "2012"
     },
     {
-      "institution": "University of Antioquia",
-      "degree": "Systems Engineering, Software Engineering"
+      "institution": "Barcelona Institute of Financial Studies",
+      "degree": "Advanced Course on International Accounting Standards, Accounting and Finance",
+      "period": "2013 - 2014"
+    },
+    {
+      "institution": "Technical Institute of Education - Comfenalco - Quindío",
+      "degree": "Labor Technician in Systems, Computer Systems",
+      "period": "2010 - 2011"
     },
     {
       "institution": "National Learning Service SENA",
-      "degree": "Professional Technician in Accounting and Financial Management, Accounting"
+      "degree": "Professional Technician in Accounting and Financial Management, Accounting",
+      "period": "2008 - 2010"
     }
   ]
 }

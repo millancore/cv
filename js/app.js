@@ -18,13 +18,14 @@ async function loadLanguage(lang) {
     translations.jobs.forEach(job => {
         const jobElement = document.createElement('div');
         jobElement.classList.add('job');
+        const locationMode = [job.location, job.mode].filter(Boolean).join(' · ');
         jobElement.innerHTML = `
             <div class="job-header">
                 <div>
                   <span class="job-title">${job.company}</span>
                   <p>${job.title}</p>
                 </div>
-                <span class="date">${job.location}<br>${job.period}</span>
+                <span class="date">${locationMode ? locationMode + '<br>' : ''}${job.period}</span>
             </div>
             <ul>
                 ${job.tasks.map(task => `<li>${task}</li>`).join('')}
@@ -38,18 +39,33 @@ async function loadLanguage(lang) {
     translations.schools.forEach(school => {
         const schoolElement = document.createElement('div');
         schoolElement.classList.add('school');
-        let schoolHtml = `
-            <span class="job-title">${school.institution}</span>
+        schoolElement.innerHTML = `
+            <div class="school-header">
+                <span class="school-title">${school.institution}</span>
+                ${school.period ? `<span class="school-period">${school.period}</span>` : ''}
+            </div>
+            <p class="school-degree">${school.degree}</p>
         `;
-        if (school.location) {
-            schoolHtml += `<span class="date">${school.location}<br>${school.period}</span>`;
-        } else if (school.period) {
-            schoolHtml += `<span class="date">${school.period}</span>`;
-        }
-        schoolHtml += `<p>${school.degree}</p>`;
-        schoolElement.innerHTML = schoolHtml;
         schoolsContainer.appendChild(schoolElement);
     });
+
+    const skillsContainer = document.getElementById('skills');
+    skillsContainer.innerHTML = '';
+    if (translations.skills) {
+        const skillsElement = document.createElement('div');
+        skillsElement.classList.add('skills-grid');
+        let skillsHtml = '';
+        for (const [category, items] of Object.entries(translations.skills)) {
+            skillsHtml += `
+                <div class="skill-category">
+                    <span class="skill-label">${category}:</span>
+                    <span class="skill-items">${items.join(', ')}</span>
+                </div>
+            `;
+        }
+        skillsElement.innerHTML = skillsHtml;
+        skillsContainer.appendChild(skillsElement);
+    }
 }
 
 function setLanguage(lang) {

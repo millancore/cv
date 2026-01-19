@@ -87,18 +87,54 @@ section h3 {
 }
 
 .school {
-    p {
-        margin: 0;
-    }
+    margin-bottom: 16px;
+}
+
+.school-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.school-title {
+    font-weight: bold;
+}
+
+.school-period {
+    color: #444;
+}
+
+.school-degree {
+    margin: 4px 0 0 0;
 }
 
 .job-title {
     font-weight: bold;
-
 }
 
 .date {
     text-align: right;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 40px;
+}
+
+.skill-category {
+    display: flex;
+    gap: 8px;
+}
+
+.skill-label {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.skill-items {
+    color: #444;
 }
 
 @media (max-width: 768px) {
@@ -143,6 +179,10 @@ section h3 {
             background-color: #f4f4f5;
         }
 
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
     }
 
 }
