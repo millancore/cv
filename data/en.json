@@ -50,6 +50,7 @@
     },
     {
       "company": "TOKEN Software Components",
+      "noPrint": true,
       "location": "Colombia",
       "mode": "Freelance",
       "period": "April 2014 – February 2016",

@@ -3,60 +3,99 @@
   "name": "Juan Esteban Millan",
   "location": "Genova, Italia",
   "linkedin": "linkedin.com/in/millancore",
+  "github": "github.com/millancore",
   "phone": "+39 3455018293",
   "email": "millancore@gmail.com",
-  "summary": "Desarrollador de software con más de 15 años de experiencia trabajando en todo el proceso, desde la solicitud de los clientes y la planificación hasta el diseño y la creación de sistemas. Entiendo ambos lados: la capacidad de comprender un negocio y contribuir de manera técnica. Mi experiencia en contabilidad me ayuda a comprender realmente los procesos empresariales, lo que ha sido muy útil para dirigir proyectos de automatización, gestionar grandes volúmenes de datos y actualizar sistemas complejos.",
+  "summary": "Ingeniero Full Stack al que realmente le gusta mejorar proyectos legacy. Durante más de una década, he estado investigando sistemas complejos: plataformas de pago que procesan millones en transacciones, infraestructura de gemelos digitales y herramientas de contabilidad empresarial. He aprendido que el código es solo una herramienta; mi verdadero trabajo es asegurar que el sistema subyacente sea lo suficientemente confiable para que la tecnología se vuelva invisible para quienes la usan. Disfruto rastreando cuellos de botella, desenredando código legacy y repensando la arquitectura para que no solo sea más rápida, sino más fácil para el siguiente desarrollador. He trabajado con equipos distribuidos en diferentes continentes, culturas y zonas horarias.",
   "professionalExperience": "EXPERIENCIA PROFESIONAL",
   "jobs": [
     {
       "company": "Square1",
-      "location": "Dublin, Ireland (remoto)",
-      "period": "Julio 2020 – actual",
+      "location": "Irlanda",
+      "mode": "Remoto",
+      "period": "Julio 2020 – presente",
       "title": "Senior Full Stack Developer",
+      "description": "Ingeniero Full-Stack Senior con amplia experiencia en Square1, la agencia líder en transformación digital de Europa y el primer Socio Certificado de Stripe del mundo. Especializado en arquitectura de plataformas e-commerce multi-tenant escalables y sistemas de pago complejos para clientes empresariales.",
       "tasks": [
-        "Creación de Ecommerces multitenant",
-        "Integración de Pagos con Stripe, Paypal (Stripe Certified Developer)",
-        "Soporte al cliente, gestión de tickets, seguimiento de incidencias y requerimientos",
-        "Actualización de proyectos de Laravel 5 a 12, Dockerizacion de proyectos.",
-        "Creación de librerías internas, uso de componentes Illuminate (laravel) y Láminas (Zend).",
-        "Mentoring de equipos y profesor de Square1 Academy para la universidad de Antioquia"
+        "Especialista en integración de Stripe y PayPal con experiencia práctica en plataformas de pago empresariales que procesan millones en transacciones anuales.",
+        "Lideré actualizaciones del framework Laravel (5→12), proyectos de containerización con Docker y mejoras de infraestructura reduciendo el tiempo de despliegue en un 60%.",
+        "Construí componentes reutilizables de Laravel/Illuminate y librerías empresariales basadas en Laminas que soportan multi-tenancy, procesamiento de pagos y distribución de contenido en múltiples proyectos.",
+        "Diseñé e impartí currículo práctico en la Universidad de Antioquia a través de Square1 Academy, conectando conocimiento teórico con habilidades técnicas listas para la industria mientras mentorizaba estudiantes desarrolladores."
       ]
     },
     {
-      "company": "Evertec - Placetopay",
-      "location": "Medellin, Colombia",
-      "period": "Febrero 2019 – Octubre 2019",
+      "company": "Evertec",
+      "location": "Colombia",
+      "mode": "Híbrido",
+      "period": "Enero 2019 – Diciembre 2019",
       "title": "Ingeniero de Desarrollo",
+      "description": "Mejoré el rendimiento y la confiabilidad de sistemas de procesamiento de pagos de alto volumen mediante perfilado sistemático, análisis de cuellos de botella y optimización estratégica de código.",
       "tasks": [
-        "Optimización y profiling del software que procesa transacciones con Tideways y XHProf",
-        "Actualización de proyectos, corrección de errores y mejoras."
+        "Utilicé Tideways y XHProf para identificar cuellos de botella en pipelines de procesamiento de pagos, luego implementé optimizaciones dirigidas que redujeron mediblemente la latencia de procesamiento y aumentaron el throughput de transacciones en flujos de pago de alto volumen."
       ]
     },
     {
-      "company": "Inscra SA - Cooburquin",
-      "location": "Medellin, Colombia",
-      "period": "Abril 2009 – Mayo 2012",
-      "title": "Desarrollador soporte Contabilidad - Auxiliar Contable",
+      "company": "ENGworks",
+      "location": "Argentina",
+      "mode": "Híbrido",
+      "period": "Febrero 2016 – Enero 2019",
+      "title": "Backend Developer",
+      "description": "Contribuí a la plataforma Digital Twin de YouBIM, una solución integral de gestión de instalaciones y BIM (Building Information Modeling) diseñada para modernizar operaciones de mantenimiento y optimizar la integración de datos de instalaciones.",
       "tasks": [
-        "Trabaje dando soporte a el equipo contable desde sistemas,",
-        "Creación de reportes contables, sistemas para cierres y conciliación bancaria.",
-        "Generación de reportes XML para la DIAN"
+        "Desarrollé y mantuve endpoints de API y servicios backend que soportan gestión de datos de instalaciones en tiempo real, automatización de flujos de mantenimiento e integración de modelos 3D.",
+        "Construí soluciones de base de datos que permiten la integración fluida de modelos BIM, historial de equipos, registros de mantenimiento y seguimiento de cumplimiento en plataformas de gestión de instalaciones empresariales.",
+        "Colaboré con equipos full-stack para entregar infraestructura de gemelos digitales amigable que simplifica operaciones complejas de instalaciones para gerentes de mantenimiento, directores de operaciones y consultores BIM.",
+        "Contribuí a la arquitectura backend para alertas de mantenimiento automatizadas, sistemas de gestión de órdenes de trabajo y funciones de reportes de cumplimiento."
+      ]
+    },
+    {
+      "company": "TOKEN Software Components",
+      "noPrint": true,
+      "location": "Colombia",
+      "mode": "Freelance",
+      "period": "Abril 2014 – Febrero 2016",
+      "title": "Full Stack Engineer",
+      "description": "Ingeniero full stack freelance construyendo soluciones web personalizadas durante los primeros días del trabajo remoto. Creé sitios estáticos, plataformas WordPress y proporcioné consultoría técnica.",
+      "tasks": [
+        "Construí temas y plugins personalizados de WordPress para clientes de pequeñas empresas, entregando soluciones CMS a medida con interfaces de administración intuitivas.",
+        "Desarrollé sitios web estáticos y landing pages optimizados para rendimiento y SEO.",
+        "Proporcioné consultoría técnica y servicios de mantenimiento para aplicaciones web existentes."
+      ]
+    },
+    {
+      "company": "INSCRA S.A.S",
+      "location": "Colombia",
+      "mode": "Presencial",
+      "period": "Mayo 2012 – Abril 2014",
+      "title": "Desarrollador de Software",
+      "description": "Diseñé y mantuve soluciones de software contable de nivel empresarial con énfasis en cumplimiento regulatorio, optimización de sistemas y modernización de sistemas legacy.",
+      "tasks": [
+        "Proporcioné soporte técnico integral y realicé análisis sistemático de sistemas contables, implementando mejoras estratégicas para optimizar el rendimiento del sistema y mejorar la experiencia del usuario final.",
+        "Diseñé e implementé integraciones de sistemas de acuerdo con las Normas Internacionales de Información Financiera (NIIF), asegurando el cumplimiento regulatorio completo y prácticas estandarizadas de reportes financieros.",
+        "Dirigí iniciativas de modernización para aplicaciones legacy, mejorando la calidad del código, refinando la arquitectura del sistema y mejorando la mantenibilidad a largo plazo mientras reducía sistemáticamente la deuda técnica."
       ]
     }
   ],
+  "skillsTitle": "HABILIDADES",
+  "skills": {
+    "Backend": ["PHP", "Laravel", "Symfony", "Laminas", "Golang", "APIs"],
+    "Frontend": ["JavaScript", "HTML", "CSS", "Tailwind", "Vue"],
+    "Base de Datos": ["MySQL", "PostgreSQL", "Diseño de Base de Datos"],
+    "DevOps": ["Docker", "Git", "Bash", "Linux", "CI/CD"],
+    "Pagos": ["Stripe", "PayPal", "Procesamiento de Pagos"],
+    "Herramientas": ["Tideways", "XHProf", "Perfilado de Rendimiento"]
+  },
   "education": "EDUCACIÓN",
   "schools": [
     {
-      "institution": "Instituto Barcelona de Estudios Financieros",
-      "degree": "Curso Superior de Normas Internacionales de Contabilidad, Contabilidad y finanzas"
-    },
-    {
       "institution": "Universidad de Antioquia",
-      "degree": "Ingeniería de Sistemas, Ingeniería de Software"
+      "degree": "Ingeniería de Sistemas, Ingeniería de Software",
+      "period": "2012"
     },
     {
-      "institution": "Servicio Nacional de Aprendizaje SENA",
-      "degree": "Técnico Profesional en Gestión Contable y Financiera, Contabilidad"
+      "institution": "Instituto de Estudios Financieros de Barcelona",
+      "degree": "Curso Avanzado en Normas Internacionales de Contabilidad, Contabilidad y Finanzas",
+      "period": "2013 - 2014"
     }
   ]
 }

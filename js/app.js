@@ -18,6 +18,7 @@ async function loadLanguage(lang) {
     translations.jobs.forEach(job => {
         const jobElement = document.createElement('div');
         jobElement.classList.add('job');
+        if (job.noPrint) jobElement.classList.add('no-print');
         const locationMode = [job.location, job.mode].filter(Boolean).join(' · ');
         jobElement.innerHTML = `
             <div class="job-header">
@@ -28,7 +29,12 @@ async function loadLanguage(lang) {
                 <span class="date">${locationMode ? locationMode + '<br>' : ''}${job.period}</span>
             </div>
             <ul>
-                ${job.tasks.map(task => `<li>${task}</li>`).join('')}
+                ${job.tasks.map(task => {
+                    if (typeof task === 'object') {
+                        return `<li class="${task.noPrint ? 'no-print' : ''}">${task.text}</li>`;
+                    }
+                    return `<li>${task}</li>`;
+                }).join('')}
             </ul>
         `;
         jobsContainer.appendChild(jobElement);
