@@ -1,8 +1,9 @@
 {
   "title": "Juan Curriculum Vitae",
   "name": "Juan Esteban Millan",
-  "location": "Genoa, Italy",
+  "location": "Italy",
   "linkedin": "linkedin.com/in/millancore",
+  "github": "github.com/millancore",
   "phone": "+39 3455018293",
   "email": "millancore@gmail.com",
   "summary": "Full Stack Engineer who actually likes improving legacy projects. For over a decade, I've been digging under the hood of complex systems—payment platforms handling millions in transactions, digital twin infrastructure, and enterprise accounting tools. I've learned that code is just a tool; my real job is making sure the underlying system is reliable enough that the technology becomes invisible to the people using it. I enjoy tracking down bottlenecks, untangling legacy code, and rethinking architecture so it's not just faster—but easier for the next developer. I've worked with distributed teams across different continents, cultures, and time zones.",
@@ -94,16 +95,6 @@
       "institution": "Barcelona Institute of Financial Studies",
       "degree": "Advanced Course on International Accounting Standards, Accounting and Finance",
       "period": "2013 - 2014"
-    },
-    {
-      "institution": "Technical Institute of Education - Comfenalco - Quindío",
-      "degree": "Labor Technician in Systems, Computer Systems",
-      "period": "2010 - 2011"
-    },
-    {
-      "institution": "National Learning Service SENA",
-      "degree": "Professional Technician in Accounting and Financial Management, Accounting",
-      "period": "2008 - 2010"
     }
   ]
 }
