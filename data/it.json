@@ -42,7 +42,10 @@
       "title": "Backend Developer",
       "description": "Ho contribuito alla piattaforma Digital Twin di YouBIM, una soluzione completa di gestione delle strutture e BIM (Building Information Modeling) progettata per modernizzare le operazioni di manutenzione e ottimizzare l'integrazione dei dati delle strutture.",
       "tasks": [
-        "Ho sviluppato e mantenuto endpoint API e servizi backend che supportano la gestione dei dati delle strutture in tempo reale, l'automazione dei flussi di manutenzione e l'integrazione di modelli 3D.",
+        {
+          "text": "Ho sviluppato e mantenuto endpoint API e servizi backend che supportano la gestione dei dati delle strutture in tempo reale, l'automazione dei flussi di manutenzione e l'integrazione di modelli 3D.",
+          "noPrint": true
+        },
         "Ho costruito soluzioni database che consentono l'integrazione fluida di modelli BIM, storico delle attrezzature, registri di manutenzione e tracciamento della conformità su piattaforme di gestione strutture enterprise.",
         "Ho collaborato con team full-stack per fornire un'infrastruttura digital twin user-friendly che semplifica le operazioni complesse delle strutture per responsabili della manutenzione, direttori operativi e consulenti BIM.",
         "Ho contribuito all'architettura backend per avvisi di manutenzione automatizzati, sistemi di gestione ordini di lavoro e funzionalità di reporting sulla conformità."
@@ -71,7 +74,10 @@
       "description": "Ho progettato e mantenuto soluzioni software contabili di livello enterprise con enfasi sulla conformità normativa, ottimizzazione dei sistemi e modernizzazione dei sistemi legacy.",
       "tasks": [
         "Ho fornito supporto tecnico completo e condotto analisi sistematica dei sistemi contabili, implementando miglioramenti strategici per ottimizzare le prestazioni del sistema e migliorare l'esperienza dell'utente finale.",
-        "Ho progettato e implementato integrazioni di sistema in conformità con i Principi Contabili Internazionali (IFRS), garantendo la piena conformità normativa e pratiche standardizzate di reporting finanziario.",
+        {
+          "text": "Ho progettato e implementato integrazioni di sistema in conformità con i Principi Contabili Internazionali (IFRS), garantendo la piena conformità normativa e pratiche standardizzate di reporting finanziario.",
+          "noPrint": true
+        },
         "Ho guidato iniziative di modernizzazione per applicazioni legacy, migliorando la qualità del codice, raffinando l'architettura del sistema e migliorando la manutenibilità a lungo termine riducendo sistematicamente il debito tecnico."
       ]
     }

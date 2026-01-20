@@ -42,7 +42,10 @@
       "title": "Backend Developer",
       "description": "Contributed to YouBIM's Digital Twin platform, a comprehensive facility management and BIM (Building Information Modeling) solution designed to modernize maintenance operations and streamline facility data integration. Worked on core backend systems that power YouBIM's integrated suite of products.",
       "tasks": [
-        "Developed and maintained API endpoints and backend services supporting real-time facility data management, maintenance workflow automation, and 3D model integration.",
+        {
+          "text": "Developed and maintained API endpoints and backend services supporting real-time facility data management, maintenance workflow automation, and 3D model integration.",
+          "noPrint": true
+        },
         "Built database solutions enabling seamless integration of BIM models, equipment history, maintenance records, and compliance tracking across enterprise facility management platforms.",
         "Collaborated with full-stack teams to deliver user-friendly digital twin infrastructure that simplifies complex facility operations for maintenance managers, operations directors, and BIM consultants.",
         "Contributed to backend architecture for automated maintenance alerts, work order management systems, and compliance reporting features."
@@ -71,7 +74,10 @@
       "description": "Engineered and maintained enterprise-grade accounting software solutions with emphasis on regulatory compliance, system optimization, and legacy system modernization to enhance operational efficiency and ensure adherence to international financial reporting standards.",
       "tasks": [
         "Provided comprehensive technical support and conducted systematic analysis of accounting systems, implementing strategic enhancements to optimize system performance and improve end-user experience.",
-        "Designed and implemented system integrations in accordance with International Financial Reporting Standards (IFRS), ensuring full regulatory compliance and standardized financial reporting practices.",
+        {
+          "text": "Designed and implemented system integrations in accordance with International Financial Reporting Standards (IFRS), ensuring full regulatory compliance and standardized financial reporting practices.",
+          "noPrint": true
+        },
         "Directed modernization initiatives for legacy applications, enhancing code quality, refining system architecture, and improving long-term maintainability while systematically reducing technical debt."
       ]
     }

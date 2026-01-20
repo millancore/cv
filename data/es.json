@@ -42,7 +42,10 @@
       "title": "Backend Developer",
       "description": "Contribuí a la plataforma Digital Twin de YouBIM, una solución integral de gestión de instalaciones y BIM (Building Information Modeling) diseñada para modernizar operaciones de mantenimiento y optimizar la integración de datos de instalaciones.",
       "tasks": [
-        "Desarrollé y mantuve endpoints de API y servicios backend que soportan gestión de datos de instalaciones en tiempo real, automatización de flujos de mantenimiento e integración de modelos 3D.",
+        {
+          "text": "Desarrollé y mantuve endpoints de API y servicios backend que soportan gestión de datos de instalaciones en tiempo real, automatización de flujos de mantenimiento e integración de modelos 3D.",
+          "noPrint": true
+        },
         "Construí soluciones de base de datos que permiten la integración fluida de modelos BIM, historial de equipos, registros de mantenimiento y seguimiento de cumplimiento en plataformas de gestión de instalaciones empresariales.",
         "Colaboré con equipos full-stack para entregar infraestructura de gemelos digitales amigable que simplifica operaciones complejas de instalaciones para gerentes de mantenimiento, directores de operaciones y consultores BIM.",
         "Contribuí a la arquitectura backend para alertas de mantenimiento automatizadas, sistemas de gestión de órdenes de trabajo y funciones de reportes de cumplimiento."
@@ -71,7 +74,10 @@
       "description": "Diseñé y mantuve soluciones de software contable de nivel empresarial con énfasis en cumplimiento regulatorio, optimización de sistemas y modernización de sistemas legacy.",
       "tasks": [
         "Proporcioné soporte técnico integral y realicé análisis sistemático de sistemas contables, implementando mejoras estratégicas para optimizar el rendimiento del sistema y mejorar la experiencia del usuario final.",
-        "Diseñé e implementé integraciones de sistemas de acuerdo con las Normas Internacionales de Información Financiera (NIIF), asegurando el cumplimiento regulatorio completo y prácticas estandarizadas de reportes financieros.",
+        {
+          "text": "Diseñé e implementé integraciones de sistemas de acuerdo con las Normas Internacionales de Información Financiera (NIIF), asegurando el cumplimiento regulatorio completo y prácticas estandarizadas de reportes financieros.",
+          "noPrint": true
+        },
         "Dirigí iniciativas de modernización para aplicaciones legacy, mejorando la calidad del código, refinando la arquitectura del sistema y mejorando la mantenibilidad a largo plazo mientras reducía sistemáticamente la deuda técnica."
       ]
     }
